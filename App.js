@@ -32,9 +32,8 @@ console.log(allgrounds[0]);
           handleClose = {() => setIsModalVisible(false)}
           
           />
-          
+
         }
-        <Text>Test{allgrounds.groundName}</Text>
 
         {allgrounds.map( 
             ground => <View style={styles.box}>
